@@ -11,12 +11,12 @@
 
     $config = new Config();
 
-    $dbConfig = $config->get('db');
-    $db = new PDO(
-        'mysql:host=localhost;port=3307;dbname=jobboard',
-        $dbConfig['user'],
-        $dbConfig['password']
-    );
+    // $dbConfig = $config->get('db');
+    // $db = new PDO(
+    //     'mysql:host=localhost;port=3307;dbname=jobboard',
+    //     $dbConfig['user'],
+    //     $dbConfig['password']
+    // );
 
     $loader = new Twig_Loader_Filesystem(__DIR__ . '/views');
     $view = new Twig_Environment($loader);
