@@ -1,4 +1,4 @@
-#Setup
+# Setup
 
 ## Environment requirements
 Please ensure that you have the following;
@@ -15,3 +15,5 @@ Enter the project directory and run the following command
 ```
 composer update
 ```
+
+Serve the application on your localhost 
