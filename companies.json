@@ -40,12 +40,12 @@
       "requiresOneOf": []
     },
     "Company J": {
-      "name":"Company I",
+      "name":"Company J",
       "requiresAll" : [],
       "requiresOneOf": []
     },
     "Company K": {
-      "name":"Company J",
+      "name":"Company K",
       "requiresAll" : ["Paypal account"],
       "requiresOneOf": []
     }
