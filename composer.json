@@ -1,0 +1,20 @@
+{
+    "name":"wapnen/jobboard",
+    "description": "Job qualification calculator",
+    "type": "project",
+    "authors":[
+      {
+        "name": "Wapnen Gowok",
+        "email": "wapneng@gmail.com"
+      }
+    ],
+    "require": {
+        "monolog/monolog": "^2.0",
+        "twig/twig": "^2.11"
+    },
+    "autoload": {
+      "psr-4":{
+        "Jobboard\\":"src"
+      }
+    }
+}

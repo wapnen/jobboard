@@ -1,0 +1,52 @@
+{
+    "Company A": {
+      "name":"Company A",
+      "requiresAll" : [ "Property insurance"],
+      "requiresOneOf": ["Apartment", "House"]
+    },
+    "Company B": {
+      "name":"Company B",
+      "requiresAll" : [ "Driver's license", "Car insurance"],
+      "requiresOneOf": ["5 door car", "4 door car"]
+    },
+    "Company C": {
+      "name":"Company C",
+      "requiresAll" : [ "Social security number", "Work permit"],
+      "requiresOneOf": []
+    },
+    "Company D": {
+      "name":"Company D",
+      "requiresAll" : [],
+      "requiresOneOf": ["Apartment", "Flat", "House"]
+    },
+    "Company E": {
+      "name":"Company E",
+      "requiresAll" : ["Driver's license"],
+      "requiresOneOf": ["2 door car", "3 door car", "5 door car", "4 door car"]
+    },
+    "Company F": {
+      "name":"Company F",
+      "requiresAll" : ["Driver's license", "Motorcycle insurance"],
+      "requiresOneOf": ["Scooter", "Bike", "Motorcycle"]
+    },
+    "Company G": {
+      "name":"Company G",
+      "requiresAll" : ["Massage qualification certificate", "Liability insurance"],
+      "requiresOneOf": []
+    },
+    "Company H": {
+      "name":"Company H",
+      "requiresAll" : ["Storage place", "Garage"],
+      "requiresOneOf": []
+    },
+    "Company J": {
+      "name":"Company I",
+      "requiresAll" : [],
+      "requiresOneOf": []
+    },
+    "Company K": {
+      "name":"Company J",
+      "requiresAll" : ["Paypal account"],
+      "requiresOneOf": []
+    }
+}

@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <title></title>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-md navbar-dark bg-dark ">
+  <a class="navbar-brand" href="#">Jobboard</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarsExampleDefault">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item active">
+        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+      </li>
+
+    </ul>
+  
+  </div>
+</nav>
+
+<main role="main" class="container">
+
+  <div class="row mt-5">
+    <div class="col-md-12">
+      <div class="card">
+        <div class="card-body">
+           <h5 class="card-title">Find a job that suits you</h5>
+           <h6 class="card-subtitle mb-2 text-muted">Select all that apply to you</h6>
+           <form action="/job/search" method="post">
+             <input type="hidden" name="igig" value="oioioiho">
+              <div class="row">
+                <div class="col-md-3">
+                  <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="Apartment" name="Apartment" id="Apartment">
+                    <label class="form-check-label" for="Apartment">
+                      Apartment
+                    </label>
+                  </div>
+                </div>
+                <div class="col-md-3">
+                  <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="House" id="House">
+                    <label class="form-check-label" for="House">
+                      House
+                    </label>
+                  </div>
+                </div>
+                <div class="col-md-3">
+                  <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="Property insurance" name = "Property-insurance " id="Property-insurance">
+                    <label class="form-check-label" for="Property-insurance">
+                      Property insurance
+                    </label>
+                  </div>
+                </div>
+                <div class="col-md-3">
+                  <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="5 door car" id="5-door-car">
+                    <label class="form-check-label" for="5-door-car">
+                      5 door car
+                    </label>
+                  </div>
+                </div>
+              </div>
+
+              <div class="row">
+                <div class="col-md-3">
+                  <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="4 door car" id="4-door-car">
+                    <label class="form-check-label" for="4-door-car">
+                      4 door car
+                    </label>
+                  </div>
+                </div>
+                <div class="col-md-3">
+                  <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="Driver's license" id="Driver-license">
+                    <label class="form-check-label" for="Driver-license">
+                      Driver's license
+                    </label>
+                  </div>
+                </div>
+                <div class="col-md-3">
+                  <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="Car insurance" id="Car-insurance">
+                    <label class="form-check-label" for="Car-insurance">
+                      Car insurance
+                    </label>
+                  </div>
+                </div>
+                <div class="col-md-3">
+                  <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="Social security number" id="ssn">
+                    <label class="form-check-label" for="ssn">
+                      Social security number
+                    </label>
+                  </div>
+                </div>
+              </div>
+
+              <div class="row">
+                <div class="col-md-3">
+                  <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="Work permit" id="Work-permit">
+                    <label class="form-check-label" for="Work-permit">
+                      Work permit
+                    </label>
+                  </div>
+                </div>
+                <div class="col-md-3">
+                  <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="Flat" id="Flat">
+                    <label class="form-check-label" for="Flat">
+                      Flat
+                    </label>
+                  </div>
+                </div>
+                <div class="col-md-3">
+                  <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="2 door car" id="2-door-car">
+                    <label class="form-check-label" for="2-door-car">
+                      2 door car
+                    </label>
+                  </div>
+                </div>
+                <div class="col-md-3">
+                  <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="3 door car" id="3-door-car">
+                    <label class="form-check-label" for="3-door-car">
+                      3 door car
+                    </label>
+                  </div>
+                </div>
+              </div>
+
+              <div class="row">
+                <div class="col-md-3">
+                  <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="Scooter" id="Scooter">
+                    <label class="form-check-label" for="defaultCheck1">
+                      Scooter
+                    </label>
+                  </div>
+                </div>
+                <div class="col-md-3">
+                  <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="Bike" id="Bike">
+                    <label class="form-check-label" for="Bike">
+                      Bike
+                    </label>
+                  </div>
+                </div>
+                <div class="col-md-3">
+                  <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="Motorcycle" id="Motorcycle">
+                    <label class="form-check-label" for="Motorcycle">
+                      Motorcycle
+                    </label>
+                  </div>
+                </div>
+                <div class="col-md-3">
+                  <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="Massage qualification certificate" id="massage-cert">
+                    <label class="form-check-label" for="massage-cert">
+                      Massage qualification certificate
+                    </label>
+                  </div>
+                </div>
+              </div>
+
+              <div class="row">
+                <div class="col-md-3">
+                  <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="Liability insurance" id="Liability-insurance">
+                    <label class="form-check-label" for="Liability-insurance">
+                      Liability insurance
+                    </label>
+                  </div>
+                </div>
+                <div class="col-md-3">
+                  <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="Storage place" id="Storage-place">
+                    <label class="form-check-label" for="Storage-place">
+                      Storage place
+                    </label>
+                  </div>
+                </div>
+                <div class="col-md-3">
+                  <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="Garage" id="Garage">
+                    <label class="form-check-label" for="Garage">
+                      Garage
+                    </label>
+                  </div>
+                </div>
+                <div class="col-md-3">
+                  <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="Paypal account" id="Paypal-account">
+                    <label class="form-check-label" for="Paypal-account">
+                      Paypal account
+                    </label>
+                  </div>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-md-3">
+                  <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="Motorcycle insurance" id="Motorcycle-insurance">
+                    <label class="form-check-label" for="Motorcycle-insurance">
+                      Motorcycle insurance
+                    </label>
+                  </div>
+                </div>
+
+              </div>
+              <div class="row mt-4">
+                <div class="col-md-12 text-center">
+                  <button type="submit" class="btn btn-primary">Search</button>
+                </div>
+              </div>
+              <!--  -->
+            </form>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</main><!-- /.container -->
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+      <script>window.jQuery || document.write('<script src="/docs/4.3/assets/js/vendor/jquery-slim.min.js"><\/script>')</script><script src="/docs/4.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-xrRywqdh3PHs8keKZN+8zzc5TX0GRTLCcmivcbNJWm2rs5C8PRhcEn3czEjhAO9o" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+      <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+  </body>
+  </html>
